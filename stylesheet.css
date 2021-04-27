@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+}
+
+td{
+    vertical-align: baseline;
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover{
+    background-color: #767782;
+}
+
+header{
+    padding: 25px 0px 25px 25px;
+}
+
+
+time{
+    font-size: 18px;
+    color: #495d8f;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
