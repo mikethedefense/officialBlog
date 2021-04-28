@@ -4,6 +4,14 @@
     padding: 0;
 }
 
+section{
+    padding-left: 25px;
+}
+
+section h2{
+    padding-bottom: 20px;
+}
+
 body{
     display: grid;
     grid-template-rows: 300px 200px 200px 200px 200px 200px 200px;
@@ -21,6 +29,7 @@ body{
 
 td{
     vertical-align: baseline;
+    text-align: center;
 }
 
 a{
@@ -38,7 +47,6 @@ header{
     grid-area: header;
     background: linear-gradient(#2586ba, #cc9741);
    
-    
 }
 
 h2{
@@ -53,6 +61,7 @@ h2{
     height: 100%;
 
 }
+
 
 
 #headertext{
@@ -77,47 +86,33 @@ time{
 }
 
 
-table{
-    border: 5px black solid;
-    border-radius: 5px;
-    border-spacing: 20px;
-    width: 100%;
-    max-width: 750px;
-
-}
-
 
 #blogaim{
     grid-area: element1;
-    display: grid;
-    place-items: center;
+    
 
    
 }
 
 #blogr6{
     grid-area: element2;
-    display: grid;
-    place-items: center;
+
 
 }
 
 #blogbf{
     grid-area: element3;
-    display: grid;
-    place-items: center;
+
 }
 
 #blogpc{
     grid-area: element4;
-    display: grid;
-    place-items: center;
+   
 }
 
 #blogdev{
     grid-area: element5;
-    display: grid;
-    place-items: center;
+   
 }
 
 tr{
