@@ -6,6 +6,17 @@
 
 body{
     display: grid;
+    grid-template-rows: 300px 200px 200px 200px 200px 200px 200px;
+    grid-template-areas:
+        "header"
+        "element1"
+        "element2"
+        "element3"
+        "element4"
+        "element5"
+        "footer";
+    grid-row-gap: 25px;
+    background: #8291ab;
 }
 
 td{
@@ -24,13 +35,99 @@ a:hover{
 }
 
 header{
-    padding: 25px 0px 25px 25px;
+    grid-area: header;
+    background: linear-gradient(#2586ba, #cc9741);
+   
+    
 }
+
+h2{
+    color: #083354;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.center{
+    display: grid;
+    place-items: center;
+    height: 100%;
+
+}
+
+
+#headertext{
+    font-size: 50px;
+    color:  #f2f0f0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 4px 5px black;
+
+}
+
 
 
 time{
     font-size: 18px;
-    color: #495d8f;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
+}
+
+.indent{
+    text-indent: 80px;
+}
+
+
+table{
+    border: 5px black solid;
+    border-radius: 5px;
+    border-spacing: 20px;
+    width: 100%;
+    max-width: 750px;
+
+}
+
+
+#blogaim{
+    grid-area: element1;
+    display: grid;
+    place-items: center;
+
+   
+}
+
+#blogr6{
+    grid-area: element2;
+    display: grid;
+    place-items: center;
+
+}
+
+#blogbf{
+    grid-area: element3;
+    display: grid;
+    place-items: center;
+}
+
+#blogpc{
+    grid-area: element4;
+    display: grid;
+    place-items: center;
+}
+
+#blogdev{
+    grid-area: element5;
+    display: grid;
+    place-items: center;
+}
+
+tr{
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    grid-area: footer;
+    background: #858181;
+    display: grid;
+    place-items: center;
 }
