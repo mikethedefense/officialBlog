@@ -72,8 +72,6 @@ h2{
 
 }
 
-
-
 time{
     font-size: 18px;
     color: white;
@@ -85,19 +83,12 @@ time{
     text-indent: 80px;
 }
 
-
-
 #blogaim{
     grid-area: element1;
-    
-
-   
 }
 
 #blogr6{
     grid-area: element2;
-
-
 }
 
 #blogbf{
