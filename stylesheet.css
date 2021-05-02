@@ -5,16 +5,17 @@
 }
 
 section{
-    padding-left: 25px;
+    padding-left: 5%;
+    padding-top: 5%;
 }
 
 section h2{
-    padding-bottom: 20px;
-}
+    padding-bottom: 2%;
 
+}
 body{
     display: grid;
-    grid-template-rows: 300px 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1.1fr;
     grid-template-areas:
         "header"
         "element1"
@@ -23,7 +24,6 @@ body{
         "element4"
         "element5"
         "footer";
-    grid-row-gap: 25px;
     background: #8291ab;
 }
 
@@ -35,7 +35,7 @@ td{
 a{
     text-decoration: none;
     color: orange;
-    font-size: 18px;
+    font-size: 1.1253m;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -51,7 +51,7 @@ header{
 
 h2{
     color: #083354;
-    font-size: 25px;
+    font-size: 1.5625em;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -65,7 +65,7 @@ h2{
 
 
 #headertext{
-    font-size: 50px;
+    font-size: 3.125em;
     color:  #f2f0f0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: 4px 5px black;
@@ -73,14 +73,14 @@ h2{
 }
 
 time{
-    font-size: 18px;
+    font-size: 1.125em;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
 }
 
 .indent{
-    text-indent: 80px;
+    text-indent: 5em;
 }
 
 #blogaim{
@@ -103,6 +103,7 @@ time{
 
 #blogdev{
     grid-area: element5;
+    padding-bottom: 5%;
    
 }
 
