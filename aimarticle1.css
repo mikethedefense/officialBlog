@@ -7,10 +7,33 @@
 a{
     text-decoration: none;
     color: #5287cc;
+    position: relative;
+    padding: 0 10px;
 }
 
-a:hover{
-    background: grey;
+
+
+#list{
+    width: 70%;
+    margin: 0 auto;
+}
+
+a:after{
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    transition: 0.3s;
+
+
+
+}
+
+a:hover:after{
+    width: 100%;
 }
 
 body{
@@ -42,6 +65,7 @@ body{
     color: black;
 
 }
+
 #article{
     grid-area: article;
     font-size: 1.25em;

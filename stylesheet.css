@@ -15,7 +15,7 @@ section h2{
 }
 body{
     display: grid;
-    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1.1fr;
+    grid-template-rows: 1.6fr 1fr 1fr 1fr 1fr 1fr 1.1fr;
     grid-template-areas:
         "header"
         "element1"
@@ -30,17 +30,33 @@ body{
 td{
     vertical-align: baseline;
     text-align: center;
+    line-height: 3em;
 }
+
 
 a{
     text-decoration: none;
     color: orange;
-    font-size: 1.1253m;
+    font-size: 1.1253em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    padding: 0 10px;
 }
 
-a:hover{
-    background-color: #767782;
+a:after{
+    content: "";
+    position: absolute;
+    background-color: #6b6767;
+    height: 3px;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    transition: 0.3s;
+
+}
+
+a:hover:after{
+    width: 100%
 }
 
 header{
@@ -61,8 +77,6 @@ h2{
     height: 100%;
 
 }
-
-
 
 #headertext{
     font-size: 3.125em;
