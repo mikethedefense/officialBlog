@@ -1,5 +1,5 @@
 # Blog
-A Blog made with HTML and CSS
+A Blog made with HTML and CSS.
 
 ## Description
 In this blog I talk about different topics about gaming 
