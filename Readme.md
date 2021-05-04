@@ -1,8 +1,10 @@
 # Blog
-A Blog made with HTMl and CSS
+A Blog made with HTML and CSS
 
 ## Description
 In this blog I talk about different topics about gaming 
 such as FPS games, PC part news, game dev, etc. 
 
-## Update Log (will update once this blog is completed)
+## Update Log
+1. 0.5: First Blog post complete.
+2. 0.75: Added a cool a tag underline transition
