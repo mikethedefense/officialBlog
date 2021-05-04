@@ -43,6 +43,8 @@ body{
         "article"
         "footer";
     background-color: white;
+    border-left: 1em solid #4d83db;
+    border-right: 1em solid #4d83db;
 }
 
 
@@ -84,4 +86,9 @@ body{
     background: grey;
     display: grid;
     place-items: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 98%;
+    margin: 2% auto;
+    border-radius: 4em;
 }
