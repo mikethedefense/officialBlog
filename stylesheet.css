@@ -25,6 +25,9 @@ body{
         "element5"
         "footer";
     background: #8291ab;
+    border: 2em solid #3bff7c; /*Subject to change*/
+    border-radius: 4em;
+    
 }
 
 td{
@@ -62,6 +65,9 @@ a:hover:after{
 header{
     grid-area: header;
     background: linear-gradient(#2586ba, #cc9741);
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 2em;
    
 }
 
@@ -131,4 +137,7 @@ footer{
     background: #858181;
     display: grid;
     place-items: center;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 2em;
 }
