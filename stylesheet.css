@@ -70,6 +70,24 @@ header{
    
 }
 
+#headeranimationh1{
+    color: transparent;
+    background-image: linear-gradient(to left, #9332a8, #374cab, #b5485e, #3ba8ad, #e08e22);
+    -webkit-background-clip: text;
+    animation: slideh1 1s ease-in 1, colorchangeh1 10s linear 0.5s infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
+}
+
+#headeranimationh3{
+    color: transparent;
+    background-image: linear-gradient(to left, #9332a8, #374cab, #b5485e, #3ba8ad, #e08e22);
+    -webkit-background-clip: text;
+    animation: slideh3 1s ease-in 1, colorchangeh3 10s linear 0.5s infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
+}
+
 h2{
     color: #083354;
     font-size: 1.5625em;
@@ -85,10 +103,7 @@ h2{
 
 #headertext{
     font-size: 3.125em;
-    color:  #f2f0f0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: 4px 5px black;
-
 }
 
 time{
@@ -140,4 +155,52 @@ footer{
     margin: 3% auto;
     border-radius: 4em;
     font-size: 1em;
+}
+
+@keyframes slideh1{
+    0%{
+      transform: skewX(53deg) translateX(-100%);
+      color: white;
+    }
+
+    100%{
+        transform: skewX(0deg);
+    }
+}
+
+@keyframes slideh3{
+    0%{
+      transform: skewX(53deg) translateX(100%);
+      color: white;
+    }
+    
+    100%{
+        transform: skewX(0deg);
+    }
+}
+
+@keyframes colorchangeh1{
+    0%{
+        background-position: 0 100%
+    }
+
+    50%{
+        background-position: 100% 0;
+    }
+    100%{
+        background-position: 0 100%;
+    }
+}
+
+@keyframes colorchangeh3{
+    0%{
+        background-position: 0 100%
+    }
+
+    50%{
+        background-position: 100% 0;
+    }
+    100%{
+        background-position: 0 100%;
+    }
 }
