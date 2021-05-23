@@ -78,10 +78,6 @@ header{
     animation: slideh1 1s ease-in 1,  colorchangeh1 10s linear 0.5s infinite;
     -webkit-background-size: 500%;
     background-size: 500%;
-    border-left: 2px solid white;
-    border-bottom: 2px solid white;
-    padding-left: 2%;
-    padding-bottom: 2%;
 }
 
 h2{
