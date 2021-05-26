@@ -24,10 +24,6 @@ body{
         "element4"
         "element5"
         "footer";
-    background: #8291ab;
-    border-left: 2em solid #a6251c; 
-    border-right: 2em solid #a6251c;
-    
 }
 
 td{
@@ -39,7 +35,7 @@ td{
 
 a{
     text-decoration: none;
-    color: orange;
+    color:  #5287cc;
     font-size: 1.1253em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
@@ -49,7 +45,7 @@ a{
 a:after{
     content: "";
     position: absolute;
-    background-color: #6b6767;
+    background-color:  #ff3c78;;
     height: 3px;
     left: 0;
     bottom: -10px;
@@ -66,7 +62,8 @@ header{
     grid-area: header;
     width: 100%;
     margin: 0 auto;
-    background-color: #474140;
+    background-image: urL("cool-background.png");
+    background-size: 70%
    
    
 }
@@ -81,7 +78,7 @@ header{
 }
 
 h2{
-    color: #083354;
+    color: black;
     font-size: 1.5625em;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -100,7 +97,7 @@ h2{
 
 time{
     font-size: 1.125em;
-    color: white;
+    color: black;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
 }
