@@ -11,14 +11,8 @@ section{
 
 section h2{
     padding-bottom: 2%;
-    text-align: center;
 }
 
-table{
-    margin-left: auto;
-    margin-right: auto;
-    
-}
 
 body{
     display: grid;
@@ -31,6 +25,7 @@ body{
         "element4"
         "element5"
         "footer";
+    justify-content: center;
 }
 
 td{
@@ -63,8 +58,6 @@ a:after{
 a:hover:after{
     width: 100%
 }
-
-
 
 header{
     grid-area: header;
