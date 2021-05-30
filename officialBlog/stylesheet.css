@@ -4,9 +4,17 @@
     padding: 0;
 }
 
+html{
+    background-image: url("cool-background (1).png");
+    background-repeat:no-repeat;
+    background-size: 1000%;
+}
+
 section{
     padding-left: 5%;
     padding-top: 5%;
+    background-color: white;
+    
 }
 
 section h2{
@@ -24,6 +32,7 @@ body{
         "element4"
         "element5"
         "footer";
+    justify-content: center;
 }
 
 td{
@@ -134,12 +143,10 @@ tr{
 
 footer{
     grid-area: footer;
-    background: #858181;
+    background: grey;
     display: grid;
     place-items: center;
-    width: 98%;
-    margin: 3% auto;
-    border-radius: 4em;
+    width: 100%;
     font-size: 1em;
 }
 
