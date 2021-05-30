@@ -5,7 +5,7 @@
 }
 
 html{
-    background-image: url("cool-background (1).png");
+    background-image: url("cool-background (2).png");
     background-repeat:no-repeat;
     background-size: 1000%;
 }
@@ -72,6 +72,8 @@ header{
     margin: 0 auto;
     background-image: urL("cool-background.png");
     background-size: 70%;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
 }
 
 #headeranimationh1{
@@ -148,6 +150,8 @@ footer{
     place-items: center;
     width: 100%;
     font-size: 1em;
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 2em;
 }
 
 @keyframes slideh1{
