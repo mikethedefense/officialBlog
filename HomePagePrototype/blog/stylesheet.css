@@ -167,10 +167,9 @@ footer{
     background-color: lightgrey;
     display: grid;
     place-items: center;
-    width: 80%;
+    width: 100%;
     margin: 1% auto;
     font-size: 1em;
-    border-radius: 3em;
 }
 
 @keyframes slideh1{
