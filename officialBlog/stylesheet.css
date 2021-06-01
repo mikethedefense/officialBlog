@@ -37,7 +37,6 @@ body{
 
 td{
     vertical-align: baseline;
-    text-align: center;
     line-height: 3em;
 }
 
@@ -175,4 +174,24 @@ footer{
     100%{
         background-position: 0 100%;
     }
+}
+
+@media (max-width: 823px) {
+    #headertext{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 660px) {
+     body {
+    font-size: 13px;
+  }
+
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 10px;
+  }
 }
