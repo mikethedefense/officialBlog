@@ -11,3 +11,4 @@ such as FPS games, PC part news, game dev, etc.
 3. Version 1.00: Refined the Website and fixed some bugs. 
 3. Version 1.05: Added animation for the home page.
 4. Version 1.10: Changed the look of the home page and new blog post added.
+5. Version 1.11: New blog post.
